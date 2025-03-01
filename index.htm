@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qnetech - Redefining digital excellence with cutting-edge web solutions.">
+    <meta name="keywords" content="web design, e-commerce, SEO, tech startup, Qnetech">
+    <title>Qnetech - Redefining Digital Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://via.placeholder.com/32" type="image/x-icon">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">Qnetech Initializing...</div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo-container">
+            <div class="logo">Qnetech</div>
+            <span class="logo-tag">Redefining Digital</span>
+        </div>
+        <div class="menu-toggle">☰</div>
+        <nav class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-hologram">
+            <div class="holo-box"></div>
+        </div>
+        <div class="hero-content">
+            <h1><span class="holo-text" data-text="Engineer Your Digital Cosmos">Engineer Your Digital Cosmos</span></h1>
+            <p class="hero-subtitle">Step into the future with revolutionary web solutions.</p>
+            <div class="cta-group">
+                <button class="cta-btn primary" onclick="scrollToSection('#contact')">Deploy Now</button>
+                <button class="cta-btn secondary" onclick="scrollToSection('#services')">Discover More</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services reveal">
+        <h2>Our Quantum Arsenal</h2>
+        <div class="services-grid">
+            <div class="service-card" data-tilt>
+                <div class="card-content">
+                    <div class="card-front">
+                        <h3>Holographic Design</h3>
+                        <p>Next-gen interfaces that mesmerize.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Immersive, responsive, and bespoke.</p>
+                        <button class="learn-more" onclick="alert('Details coming soon!')">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card" data-tilt>
+                <div class="card-content">
+                    <div class="card-front">
+                        <h3>Quantum Commerce</h3>
+                        <p>E-commerce that rewrites the rules.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Scalable, secure, and conversion-optimized.</p>
+                        <button class="learn-more" onclick="alert('Details coming soon!')">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card" data-tilt>
+                <div class="card-content">
+                    <div class="card-front">
+                        <h3>SEO Singularity</h3>
+                        <p>Own the digital universe.</p>
+                    </div>
+                    <div class="card-back">
+                        <p>AI-driven strategies for top rankings.</p>
+                        <button class="learn-more" onclick="alert('Details coming soon!')">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio reveal">
+        <h2>Our Cosmic Creations</h2>
+        <div class="portfolio-grid" id="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="elleni.png" alt="Project 1" loading="lazy">
+                <div class="overlay">
+                    <span class="project-title">elleni collection</span>
+                    <p>E-commerce ecosystem with 300% growth.</p>
+                    <a href="http://elleni.42web.io/" class="view-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="movie.png" alt="Project 2" loading="lazy">
+                <div class="overlay">
+                    <span class="project-title">moviesc</span>
+                    <p>movie search site with api</p>
+                    <a href="moviesc.netlify.app" class="view-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="perfume.png" alt="Project 2" loading="lazy">
+                <div class="overlay">
+                    <span class="project-title">Essence luxury</span>
+                    <p>a landing page for perfume site</p>
+                    <a href="essenceluxury.netlify.app" class="view-link">View Project</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal">
+        <h2>Transmit Your Vision</h2>
+        <form id="contact-form">
+            <div class="form-grid">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Company (Optional)">
+                <textarea placeholder="Describe your project..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Launch Transmission</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">WebForge</div>
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                
+                
+            </div>
+            <div class="footer-social">
+                
+                <a href="https://github.com/Stive1213">GitHub</a>
+            </div>
+            <p>© 2025 WebForge. Engineered for the Future.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
